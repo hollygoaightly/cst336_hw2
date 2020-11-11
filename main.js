@@ -18,7 +18,7 @@ function newGame(){
     guessedLetters = "";
     remainingLetters = secret.length;
     output = secretChar.repeat(secret.length);
-    $("#guess").html("");
+    document.getElementById('guess').value = '';
     $("#output").html(output);
 }
 
@@ -57,7 +57,7 @@ function loss(){
 function checkGuess(){
     var guess = $("#guess").val().toLowerCase();
     if(guessedLetters.includes(guess)){
-        loss();
+        alert("You've already guessed that!");
         return;
     }
     guessedLetters += guess;
