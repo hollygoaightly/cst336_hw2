@@ -1,0 +1,44 @@
+header, main, footer {
+    text-align:center;
+}
+h1 {
+    font-family:'Cinzel';
+    font-size:4em;
+    margin-bottom:0px;
+}
+h2 {
+    font-family:'Cinzel';
+    letter-spacing: 20px;
+    font-weight: bold;
+}
+h3 {
+    font-family:'Cinzel';
+}
+figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+main {
+    margin-left:100px;
+    margin-right:100px;
+    margin-bottom:50px;
+}
+#guess {
+  width: 20%;
+  font-family:'Cinzel';
+  text-align: center;
+}
+#go {
+    transition-duration: 0.4s;
+    font-family:'Cinzel';
+    
+}
+#go:hover {
+  background-color: #555555;
+  color: white;
+}
+footer {
+    margin-top:50px;
+    font-size: 10px;
+}
